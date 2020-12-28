@@ -119,7 +119,7 @@
 
 	strong, b {
 		font-weight: 400;
-		color: #E05A49;
+		color: #FE3E2E;
 	}
 
 	em, i {
@@ -133,7 +133,7 @@
 		outline: 0;
 
 		&:hover {
-			color: #E05A49;
+			color: #FE3E2E;
 		}
 	}
 
@@ -343,7 +343,7 @@
 			@include vendor('transition', 'all 0.35s ease-in-out');
 
 			&:focus {
-				box-shadow: 0 0 2px 1px #E05A49;
+				box-shadow: 0 0 2px 1px #FE3E2E;
 				background: #fff;
 			}
 		}
@@ -432,7 +432,7 @@
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #E05A49;
+		background-color: #FE3E2E;
 		border: 0;
 		cursor: pointer;
 		@include vendor('background-image', ('linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15))', 'url("images/overlay.png")'));
@@ -601,7 +601,7 @@
 						color: #fff;
 
 						span::before {
-							color: #E05A49;
+							color: #FE3E2E;
 						}
 					}
 				}
